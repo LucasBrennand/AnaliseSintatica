@@ -1,0 +1,13 @@
+G = (Vn, Vt, P, S)
+
+Vn =  E, T, OP
+Vt = id, num, +, -, *, /
+
+1. E -> E OP T | T
+2. T -> id | num
+3. OP -> + | - | * | /
+
+1a. E -> T E'
+1b. E' -> OP T E' | &
+2. T -> id | num
+3. OP -> + | - | * | /
